@@ -45,10 +45,11 @@ public class productComparison extends Base {
 	}
 
 	@Then("User should see Product Comparison Chart")
-	public void user_should_see_product_comparison_chart() throws IOException {
+	public void user_should_see_product_comparison_chart() throws IOException, InterruptedException {
 	    
 	    Assert.assertEquals(compare.getProductMessage(), true);
-	    Utilities.highlightelementBackground(compare.productMessage);
+	    Thread.sleep(3000);
+	    
 	    Utilities.takeScreenShot("Macbook Comparison Success Message");
 	    logger.info("Success Message is Shown");
 	}

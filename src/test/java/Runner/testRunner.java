@@ -12,7 +12,7 @@ import utilities.CucumberReportingConfig;
 @CucumberOptions(
          features = "classpath:features",
          glue = "StepDefinition",
-         tags = "@AllTest",
+         tags = "@DeskTopPage",
          dryRun = false,
          strict = true,
          monochrome = true,

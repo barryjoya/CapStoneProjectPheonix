@@ -36,7 +36,7 @@ public class currencyValueChangeStepDef extends Base {
 	    Thread.sleep(3000);
 	    Utilities.takeScreenShot("Currencychange");
 	    logger.info("User see currency Change");
-	    Thread.sleep(1000);
+	    
 	}
 
 }

@@ -278,6 +278,7 @@ public class HomePageObj extends Base {
 	@FindBy(xpath = "//div[@id='cart']//button[@type='button']")
 	private WebElement cartButton;
 	public boolean getCartButton() {
+		Utilities.highlightelementRedBorder(cartButton);
 		if(cartButton.isEnabled())
 			return true;
 		else
@@ -298,7 +299,7 @@ public class HomePageObj extends Base {
 		
 		public void setCurrencySelect() throws InterruptedException {
 			for(WebElement element : currencySelect) {
-				if(element.getText().contains("US")) {
+				if(element.getText().contains("Euro")) {
 				element.click();
 				break;
 				}
@@ -329,6 +330,7 @@ public class HomePageObj extends Base {
 		@FindBy(xpath="//ul[starts-with(@class,'dropdown-menu p')]")
 		private WebElement cartIsEmpty;
 		public boolean getCartIsEmpty() {
+			Utilities.highlightelementRedBorder(cartIsEmpty);
 			if(cartIsEmpty.getText().contains("Your shopping cart is empty!"))
 				return true;
 			else

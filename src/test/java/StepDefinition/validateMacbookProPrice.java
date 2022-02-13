@@ -23,9 +23,9 @@ public class validateMacbookProPrice extends Base {
 	}
 
 	@Then("User should see  ‘${double}’ price tag is present on UI.")
-	public void user_should_see_$_price_tag_is_present_on_ui(Double price) throws IOException {
+	public void user_should_see_$_price_tag_is_present_on_ui(Double price) throws IOException, InterruptedException {
 	    Assert.assertEquals(obj.getMacbookProPrice(price.toString()), true);
-	   // Utilities.highlightelementRedBorder(obj.getMacbookProPrice(""));
+	   Thread.sleep(1000);
 	    Utilities.takeScreenShot("Macbook Pro price");
 	    logger.info("user sees $2000 on UI");
 	}

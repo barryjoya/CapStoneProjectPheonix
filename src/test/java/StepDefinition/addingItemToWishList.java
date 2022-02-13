@@ -26,7 +26,7 @@ public class addingItemToWishList extends Base {
 	public void user_should_get_a_message_you_must_login_or_create_an_account_to_save_sony_vaio_to_your_wish_list() throws InterruptedException, IOException {
 	   Assert.assertEquals(wishList.getwishListMessageIsDisplayed(), true);
 	   Thread.sleep(3000);
-	   Utilities.highlightelementRedBorder(wishList.wishListMessageIsDisplayed);
+	  
 	   Utilities.takeScreenShot("Sony Vaio ScreenShot");
 	   
 	}

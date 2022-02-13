@@ -5,7 +5,7 @@ Background:
 Given User is on Retail website 
 And User click  on MyAccount
 When  User click on Login 
-And User enter username <'armanasman@tekshool.com'> and password <'123456789'> 
+And User enter username <'armanasman1@tekshool.com'> and password <'123456789'> 
 And User click on Login button
 
 
@@ -60,6 +60,6 @@ Scenario: Edit your account Information
 When User click on ‘Edit your account information’ link 
 And User modify below information 
 |firstname|lastName|email|telephone|
-|James|Hendrik|armanasman@tekshool.com|202-202-2222|
+|James|Hendrik|armanasman1@tekshool.com|202-202-2222|
 And User click on continue button 
 Then User should see a message ‘Success: Your account has been successfully updated.’

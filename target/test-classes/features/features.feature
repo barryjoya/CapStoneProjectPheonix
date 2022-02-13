@@ -9,7 +9,7 @@ And User click on Show all desktops
 
 
 
-@UnitTesting  @Smoke 
+@DesktopItems @UnitTesting  @Smoke 
 Scenario: User verify all items are present in Desktops tab
 
 Then User should see all items are present in Desktop page

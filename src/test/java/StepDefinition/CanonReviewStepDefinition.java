@@ -54,7 +54,7 @@ public class CanonReviewStepDefinition extends Base {
 	public void user_should_see_a_message_with_thank_you_for_your_review_it_has_been_submitted_to_the_webmaster_for_approval() throws IOException, InterruptedException {
 		
 		Assert.assertEquals(canonReview.getMessageShowSuccessfully(), true);
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		Utilities.takeScreenShot("Canon Success Message");
 		logger.info("User See Success Message");
 	}

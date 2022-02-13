@@ -45,7 +45,7 @@ public class DesktopPageStepDefinition extends Base {
 		
 		Thread.sleep(1000);
 		Utilities.scrollUpPage();
-		
+		Assert.assertEquals(obj.getDesktopMessage("Desktops"), true);
 		obj.getDesktopMessage("Desktop");
 	  logger.info("Desktop Message Shown");
 	  Utilities.takeScreenShot("DesktopMessage");

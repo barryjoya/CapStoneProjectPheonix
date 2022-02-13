@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import core.Base;
+import utilities.Utilities;
 
 public class LaptopsNoteBooksPageObject extends Base {
 
@@ -90,12 +91,13 @@ public class LaptopsNoteBooksPageObject extends Base {
 	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
 	private WebElement showMessageSuccess;
 	public boolean getShowMessageSuccess() {
+		Utilities.highlightelementRedBorder(showMessageSuccess);
 		if(showMessageSuccess.getText().contains("Success: You have added "))
 			return true;
 		else
 			return false;
 	}
-	
+	//=====================================================================
 	@FindBy(id="cart-total")
 	private WebElement addToCartMessage;
 	public boolean getAddToCartMessage(String str) {
@@ -121,6 +123,7 @@ public class LaptopsNoteBooksPageObject extends Base {
 	@FindBy(id="cart-total")
 	private WebElement messageShownEnd;
 	public boolean getMessageShownEnd(String str) {
+		Utilities.highlightelementRedBorder(messageShownEnd);
 		if(this.messageShownEnd.getText().equalsIgnoreCase(str)) 
 			return true;
 			else 
@@ -168,8 +171,9 @@ public class LaptopsNoteBooksPageObject extends Base {
 	
 	
 	@FindBy(linkText="Product Comparison")
-	public WebElement productMessage;
+	private WebElement productMessage;
 	public boolean getProductMessage() {
+		Utilities.highlightelementBackground(productMessage);
 		productMessage.getText().equalsIgnoreCase("Product Comparison");
 		return true;
 	}
@@ -186,12 +190,14 @@ public class LaptopsNoteBooksPageObject extends Base {
 	}
 	
 	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
-	public WebElement wishListMessageIsDisplayed;
+	private WebElement wishListMessageIsDisplayed;
 	public boolean getwishListMessageIsDisplayed() {
+		Utilities.highlightelementRedBorder(wishListMessageIsDisplayed);
 		if(wishListMessageIsDisplayed.getText().contains("You must login or create an account to save Sony VAIO to your wish list!"))
 			return true;
 		else
 			return false;
+		 
 	}
 	
 	
@@ -207,6 +213,7 @@ public class LaptopsNoteBooksPageObject extends Base {
 	@FindBy(xpath="//ul[@class='list-unstyled']//h2")
 	private WebElement macbookProPrice;
 	public boolean getMacbookProPrice(String str) {
+		Utilities.highlightelementRedBorder(macbookProPrice);
 		if(macbookProPrice.getText().contains("$2,000.00")) {
 			return true;
 		}else 

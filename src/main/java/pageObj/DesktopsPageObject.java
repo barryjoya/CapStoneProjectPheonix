@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import core.Base;
+import utilities.Utilities;
 
 public class DesktopsPageObject extends Base {
 	
@@ -45,11 +46,12 @@ public class DesktopsPageObject extends Base {
 	@FindBy(xpath="//h2[text()='Desktops']")
 	private WebElement desktopMessage;
 	public boolean getDesktopMessage(String message) {
+		Utilities.highlightelementRedBorder(desktopMessage);
 		return message.equalsIgnoreCase(desktopMessage.getText());
 	}
 	
 	
-	
+	//=====================================================================
 	
 	@FindBy(xpath ="//img[@title='Apple Cinema 30\"']")
 	private WebElement showAppleCinema;
@@ -119,6 +121,7 @@ public class DesktopsPageObject extends Base {
 	private WebElement canonSuccesMessage;
 	public boolean getCanonSuccesMessage() {
 		canonSuccesMessage.isDisplayed();
+		Utilities.highlightelementRedBorder(canonSuccesMessage);
 		String actual = canonSuccesMessage.getText();
 		String expected = "Success: You have added";
 		if(actual.contains(expected))
@@ -169,7 +172,7 @@ public class DesktopsPageObject extends Base {
 	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
 	private WebElement messageSuccessHP;
 	public boolean getmessageSuccessHP() {
-		
+		Utilities.highlightelementRedBorder(messageSuccessHP);
 		if(messageSuccessHP.getText().contains("Success: You have added")) 
 			return true;
 			else
@@ -232,6 +235,7 @@ public class DesktopsPageObject extends Base {
 	@FindBy(xpath="//div[text()=' Thank you for your review. It has been submitted to the webmaster for approval.']")
 	private WebElement messageShowSuccessfully;
 	public boolean getMessageShowSuccessfully() {
+		Utilities.highlightelementRedBorder(messageShowSuccessfully);
 		if(messageShowSuccessfully.isDisplayed())
 			return true;
 		else
