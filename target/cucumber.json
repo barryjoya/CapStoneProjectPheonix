@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 210386100,
+              "duration": 142618400,
               "status": "passed"
             },
             "line": 5,
@@ -23,36 +23,70 @@
           },
           {
             "result": {
-              "duration": 100730700,
+              "duration": 79794800,
               "status": "passed"
             },
             "line": 6,
-            "name": "User click on Desktops tab",
+            "name": "User click  on MyAccount",
             "match": {
-              "location": "StepDefinition.DesktopPageStepDefinition.user_click_on_desktops_tab()"
+              "location": "StepDefinition.loginStepDefintion.user_click_on_my_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348062500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Login",
+            "match": {
+              "location": "StepDefinition.loginStepDefintion.user_click_on_login()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 619030500,
+              "duration": 205453100,
               "status": "passed"
             },
-            "line": 7,
-            "name": "User click on Show all desktops",
+            "line": 8,
+            "name": "User enter username \u003c\u0027james@tekschoo.us\u0027\u003e and password \u003c\u0027123456789\u0027\u003e",
             "match": {
-              "location": "StepDefinition.DesktopPageStepDefinition.user_click_on_show_all_desktops()"
+              "arguments": [
+                {
+                  "val": "\u0027james@tekschoo.us\u0027",
+                  "offset": 21
+                },
+                {
+                  "val": "\u0027123456789\u0027",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinition.loginStepDefintion.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 494060100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Login button",
+            "match": {
+              "location": "StepDefinition.loginStepDefintion.user_click_on_login_button()"
             },
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-10T00:55:54.673Z",
+        "start_timestamp": "2022-02-13T19:25:53.533Z",
         "before": [
           {
             "result": {
-              "duration": 5694487300,
+              "duration": 3810537000,
               "status": "passed"
             },
             "match": {
@@ -61,13 +95,13 @@
           }
         ],
         "line": 13,
-        "name": "User verify all items are present in Desktops tab",
+        "name": "User loggin in to my Account",
         "description": "",
-        "id": "desktopspage;user-verify-all-items-are-present-in-desktops-tab",
+        "id": "for-this-feature-you-have-to-have-an-existing-account;user-loggin-in-to-my-account",
         "after": [
           {
             "result": {
-              "duration": 381885600,
+              "duration": 158956400,
               "status": "passed"
             },
             "match": {
@@ -80,23 +114,38 @@
         "steps": [
           {
             "result": {
-              "duration": 2090403300,
+              "duration": 84771900,
               "status": "passed"
             },
             "line": 15,
-            "name": "User should see all items are present in Desktop page",
+            "name": "User is on Retail website",
             "match": {
-              "location": "StepDefinition.DesktopPageStepDefinition.user_should_see_all_items_are_present_in_desktop_page()"
+              "location": "StepDefinition.DesktopPageStepDefinition.user_is_on_retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 496124600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should be logged in to MyAccount dashboard",
+            "match": {
+              "location": "StepDefinition.loginStepDefintion.user_should_be_logged_in_to_my_account_dashboard()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@AllHomePage"
+            "name": "@AllTest"
           },
           {
-            "name": "@DeskopTest"
+            "name": "@UnitIntegration"
+          },
+          {
+            "name": "@UserLogin"
           }
         ]
       },
@@ -109,7 +158,7 @@
         "steps": [
           {
             "result": {
-              "duration": 124686700,
+              "duration": 69814100,
               "status": "passed"
             },
             "line": 5,
@@ -121,36 +170,70 @@
           },
           {
             "result": {
-              "duration": 100763200,
+              "duration": 68816700,
               "status": "passed"
             },
             "line": 6,
-            "name": "User click on Desktops tab",
+            "name": "User click  on MyAccount",
             "match": {
-              "location": "StepDefinition.DesktopPageStepDefinition.user_click_on_desktops_tab()"
+              "location": "StepDefinition.loginStepDefintion.user_click_on_my_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 325422900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Login",
+            "match": {
+              "location": "StepDefinition.loginStepDefintion.user_click_on_login()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 576553800,
+              "duration": 246340800,
               "status": "passed"
             },
-            "line": 7,
-            "name": "User click on Show all desktops",
+            "line": 8,
+            "name": "User enter username \u003c\u0027james@tekschoo.us\u0027\u003e and password \u003c\u0027123456789\u0027\u003e",
             "match": {
-              "location": "StepDefinition.DesktopPageStepDefinition.user_click_on_show_all_desktops()"
+              "arguments": [
+                {
+                  "val": "\u0027james@tekschoo.us\u0027",
+                  "offset": 21
+                },
+                {
+                  "val": "\u0027123456789\u0027",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinition.loginStepDefintion.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 434838000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Login button",
+            "match": {
+              "location": "StepDefinition.loginStepDefintion.user_click_on_login_button()"
             },
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-10T00:56:04.013Z",
+        "start_timestamp": "2022-02-13T19:25:59.533Z",
         "before": [
           {
             "result": {
-              "duration": 3418615700,
+              "duration": 2946673600,
               "status": "passed"
             },
             "match": {
@@ -158,14 +241,14 @@
             }
           }
         ],
-        "line": 21,
-        "name": "User add HP LP 3065  from Desktops tab to the cart",
+        "line": 23,
+        "name": "Register as an Affiliate user with Cheque Payment Method",
         "description": "",
-        "id": "desktopspage;user-add-hp-lp-3065--from-desktops-tab-to-the-cart",
+        "id": "for-this-feature-you-have-to-have-an-existing-account;register-as-an-affiliate-user-with-cheque-payment-method",
         "after": [
           {
             "result": {
-              "duration": 560863300,
+              "duration": 160332300,
               "status": "passed"
             },
             "match": {
@@ -178,349 +261,43 @@
         "steps": [
           {
             "result": {
-              "duration": 145784500,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "User click  ADD TO CART option on ‘HP LP3065’ item",
-            "match": {
-              "location": "StepDefinition.hpStepDefinition.user_click_add_to_cart_option_on_hp_lp3065_item()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2114078500,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[text()\u003d\u0027Register for an affiliate account\u0027]\"}\n  (Session info: chrome\u003d98.0.4758.82)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SURFACE\u0027, ip: \u0027192.168.68.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\\Users\\baria\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 649ae96a7f454edbe5b6d5214f5530bb\n*** Element info: {Using\u003dxpath, value\u003d//a[text()\u003d\u0027Register for an affiliate account\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)\r\n\tat pageObj.RetailPageObject.setAffiliateButton(RetailPageObject.java:29)\r\n\tat StepDefinition.AffiliateUserWithChequePaymentStepDefinition.user_click_on_register_for_an_affiliate_account_link(AffiliateUserWithChequePaymentStepDefinition.java:23)\r\n\tat ✽.User click on ‘Register for an Affiliate Account’ link(classpath:features/retail.feature:25)\r\n",
+              "duration": 20059040100,
+              "status": "failed"
             },
             "line": 25,
-            "name": "User select quantity 1",
+            "name": "User click on ‘Register for an Affiliate Account’ link",
             "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 21
-                }
-              ],
-              "location": "StepDefinition.hpStepDefinition.user_select_quantity(java.lang.Integer)"
+              "location": "StepDefinition.AffiliateUserWithChequePaymentStepDefinition.user_click_on_register_for_an_affiliate_account_link()"
             },
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 73803100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 26,
-            "name": "User click add to Cart button",
+            "name": "User fill affiliate form with below information",
             "match": {
-              "location": "StepDefinition.hpStepDefinition.user_click_add_to_cart_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4794496500,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "User should see a message ‘Success: you have added HP LP 3065 to your Shopping cart!’",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3065",
-                  "offset": 57
-                }
-              ],
-              "location": "StepDefinition.hpStepDefinition.user_should_see_a_message_success_you_have_added_hp_lp_to_your_shopping_cart(java.lang.Integer)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@AllHomePage"
-          },
-          {
-            "name": "@HP3065"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 95749000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User is on Retail website",
-            "match": {
-              "location": "StepDefinition.DesktopPageStepDefinition.user_is_on_retail_website()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 87480500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User click on Desktops tab",
-            "match": {
-              "location": "StepDefinition.DesktopPageStepDefinition.user_click_on_desktops_tab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 550671000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User click on Show all desktops",
-            "match": {
-              "location": "StepDefinition.DesktopPageStepDefinition.user_click_on_show_all_desktops()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-02-10T00:56:15.982Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3307941400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepDefinition.initializer.beforHooks(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 33,
-        "name": "User add Canon EOS 5D from Desktops tab to the cart",
-        "description": "",
-        "id": "desktopspage;user-add-canon-eos-5d-from-desktops-tab-to-the-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 473970400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepDefinition.initializer.afterHooks(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 107104000,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "User click  ADD TO CART option on ‘Canon EOS 5D’ item",
-            "match": {
-              "location": "StepDefinition.CanonPageStepDefinition.user_click_add_to_cart_option_on_canon_eos_5d_item()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1897788100,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "User select color from dropdown ‘Red’",
-            "match": {
-              "location": "StepDefinition.CanonPageStepDefinition.user_select_color_from_dropdown_red()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 182607200,
-              "status": "passed"
-            },
-            "line": 38,
-            "name": "User select quantity 1",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 21
-                }
-              ],
-              "location": "StepDefinition.hpStepDefinition.user_select_quantity(java.lang.Integer)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 81850700,
-              "status": "passed"
-            },
-            "line": 39,
-            "name": "User click add to Cart button",
-            "match": {
-              "location": "StepDefinition.hpStepDefinition.user_click_add_to_cart_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2689109600,
-              "status": "passed"
-            },
-            "line": 40,
-            "name": "User should see a message ‘Success: You have added Canon EOS 5D to your shopping cart!’",
-            "match": {
-              "location": "StepDefinition.CanonPageStepDefinition.user_should_see_a_message_success_you_have_added_canon_eos_5d_to_your_shopping_cart()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@AllHomePage"
-          },
-          {
-            "name": "@CanonTest"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 83832300,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User is on Retail website",
-            "match": {
-              "location": "StepDefinition.DesktopPageStepDefinition.user_is_on_retail_website()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 80604300,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User click on Desktops tab",
-            "match": {
-              "location": "StepDefinition.DesktopPageStepDefinition.user_click_on_desktops_tab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 569540500,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User click on Show all desktops",
-            "match": {
-              "location": "StepDefinition.DesktopPageStepDefinition.user_click_on_show_all_desktops()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-02-10T00:56:25.504Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3723846700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepDefinition.initializer.beforHooks(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 46,
-        "name": "User add a review to Canon EOS 5D item in Desktops tab",
-        "description": "",
-        "id": "desktopspage;user-add-a-review-to-canon-eos-5d-item-in-desktops-tab",
-        "after": [
-          {
-            "result": {
-              "duration": 513268300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepDefinition.initializer.afterHooks(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1790179700,
-              "status": "passed"
-            },
-            "line": 49,
-            "name": "User click on Canon EOS 5D item",
-            "match": {
-              "location": "StepDefinition.CanonReviewStepDefinition.user_click_on_canon_eos_5d_item()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 357448500,
-              "status": "passed"
-            },
-            "line": 50,
-            "name": "User click on write a review link",
-            "match": {
-              "location": "StepDefinition.CanonReviewStepDefinition.user_click_on_write_a_review_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 560081000,
-              "status": "passed"
-            },
-            "line": 51,
-            "name": "user fill the review information with below information",
-            "match": {
-              "location": "StepDefinition.CanonReviewStepDefinition.user_fill_the_review_information_with_below_information(io.cucumber.datatable.DataTable)"
+              "location": "StepDefinition.AffiliateUserWithChequePaymentStepDefinition.user_fill_affiliate_form_with_below_information(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
                 "cells": [
-                  "yourname",
-                  "yourReview",
-                  "Rating"
+                  "company",
+                  "website",
+                  "taxID",
+                  "paymentMethod",
+                  "payPalEmailAccount"
                 ]
               },
               {
                 "cells": [
-                  "Baryalai",
-                  "this Camera is really good i would highly recomend this to freinds and families",
-                  "5"
+                  "StarLLC",
+                  "www.star123.com",
+                  "2345",
+                  "PayPal",
+                  "dave@tekschool.us"
                 ]
               }
             ],
@@ -528,51 +305,454 @@
           },
           {
             "result": {
-              "duration": 201680800,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 54,
-            "name": "User click on Continue Button",
+            "line": 29,
+            "name": "User check on About us check box",
             "match": {
-              "location": "StepDefinition.CanonReviewStepDefinition.user_click_on_continue_button()"
+              "location": "StepDefinition.AffiliateUserWithChequePaymentStepDefinition.user_check_on_about_us_check_box()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1732870300,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 55,
-            "name": "User should see a message with ‘Thank you for your review. It has been submitted to the webmaster for approval.”",
+            "line": 30,
+            "name": "User click on Continue button",
             "match": {
-              "location": "StepDefinition.CanonReviewStepDefinition.user_should_see_a_message_with_thank_you_for_your_review_it_has_been_submitted_to_the_webmaster_for_approval()"
+              "location": "StepDefinition.AffiliateUserWithChequePaymentStepDefinition.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User should see a success message",
+            "match": {
+              "location": "StepDefinition.AffiliateUserWithChequePaymentStepDefinition.user_should_see_a_success_message()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@AllHomePage"
+            "name": "@AllTest"
           },
           {
-            "name": "@CanonReview"
+            "name": "@UnitIntegration"
+          },
+          {
+            "name": "@TestAccount"
+          },
+          {
+            "name": "@UnitIntegration"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 108944300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "StepDefinition.DesktopPageStepDefinition.user_is_on_retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85540400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click  on MyAccount",
+            "match": {
+              "location": "StepDefinition.loginStepDefintion.user_click_on_my_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 341039100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Login",
+            "match": {
+              "location": "StepDefinition.loginStepDefintion.user_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226683200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter username \u003c\u0027james@tekschoo.us\u0027\u003e and password \u003c\u0027123456789\u0027\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027james@tekschoo.us\u0027",
+                  "offset": 21
+                },
+                {
+                  "val": "\u0027123456789\u0027",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinition.loginStepDefintion.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 405345400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Login button",
+            "match": {
+              "location": "StepDefinition.loginStepDefintion.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-13T19:26:23.920Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2945821800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.initializer.beforHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Edit your affiliate information from Cheque payment method to Bank Transfer",
+        "description": "",
+        "id": "for-this-feature-you-have-to-have-an-existing-account;edit-your-affiliate-information-from-cheque-payment-method-to-bank-transfer",
+        "after": [
+          {
+            "result": {
+              "duration": 159642400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 348192600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User click on ‘Edit your affiliate informationlink",
+            "match": {
+              "location": "StepDefinition.EditAffiliateInformationStepDefinition.user_click_on_edit_your_affiliate_informationlink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66715600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user click on Bank Transfer radio button",
+            "match": {
+              "location": "StepDefinition.EditAffiliateInformationStepDefinition.user_click_on_bank_transfer_radio_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 460030400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User fill Bank information with below information",
+            "match": {
+              "location": "StepDefinition.EditAffiliateInformationStepDefinition.user_fill_bank_information_with_below_information(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "bankName",
+                  "abaNumber",
+                  "swiftCode",
+                  "accountName",
+                  "accountNumber"
+                ]
+              },
+              {
+                "cells": [
+                  "BankOfAmerica",
+                  "123456789",
+                  "98765",
+                  "222333444555",
+                  "222333444555"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3423546600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User click on Continue button",
+            "match": {
+              "location": "StepDefinition.AffiliateUserWithChequePaymentStepDefinition.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AllTest"
+          },
+          {
+            "name": "@UnitIntegration"
+          },
+          {
+            "name": "@SmokeTestEdit"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 76944900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "StepDefinition.DesktopPageStepDefinition.user_is_on_retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91852400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click  on MyAccount",
+            "match": {
+              "location": "StepDefinition.loginStepDefintion.user_click_on_my_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 323043900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Login",
+            "match": {
+              "location": "StepDefinition.loginStepDefintion.user_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 263256400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter username \u003c\u0027james@tekschoo.us\u0027\u003e and password \u003c\u0027123456789\u0027\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027james@tekschoo.us\u0027",
+                  "offset": 21
+                },
+                {
+                  "val": "\u0027123456789\u0027",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinition.loginStepDefintion.user_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 409024200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Login button",
+            "match": {
+              "location": "StepDefinition.loginStepDefintion.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-13T19:26:32.531Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3345421400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.initializer.beforHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "Edit your account Information",
+        "description": "",
+        "id": "for-this-feature-you-have-to-have-an-existing-account;edit-your-account-information",
+        "after": [
+          {
+            "result": {
+              "duration": 174667100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 812051900,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User click on ‘Edit your account information’ link",
+            "match": {
+              "location": "StepDefinition.EditAccountInformation.user_click_on_edit_your_account_information_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 542612800,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User modify below information",
+            "match": {
+              "location": "StepDefinition.EditAccountInformation.user_modify_below_information(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastName",
+                  "email",
+                  "telephone"
+                ]
+              },
+              {
+                "cells": [
+                  "James",
+                  "Hendrik",
+                  "aarmanasman@tekshool.com",
+                  "202-202-2222"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 522354600,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User click on continue button",
+            "match": {
+              "location": "StepDefinition.EditAccountInformation.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 411036800,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "User should see a message ‘Success: Your account has been successfully updated.’",
+            "match": {
+              "location": "StepDefinition.EditAccountInformation.user_should_see_a_message_success_your_account_has_been_successfully_updated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AllTest"
+          },
+          {
+            "name": "@UnitIntegration"
+          },
+          {
+            "name": "@TestEditInfo"
           }
         ]
       }
     ],
-    "name": "DesktopsPage",
+    "name": "for this feature you have to have an existing account",
     "description": "",
-    "id": "desktopspage",
+    "id": "for-this-feature-you-have-to-have-an-existing-account",
     "keyword": "Feature",
-    "uri": "classpath:features/features.feature",
+    "uri": "classpath:features/retail.feature",
     "tags": [
       {
-        "name": "@AllHomePage",
+        "name": "@AllTest",
         "type": "Tag",
         "location": {
           "line": 1,
           "column": 1
+        }
+      },
+      {
+        "name": "@UnitIntegration",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 10
         }
       }
     ]

@@ -48,28 +48,28 @@ $(document).ready(function() {
   $(document).ready(function() {
 
     var chartData = {
-        labels:  [ "@AllHomePage",  "@CanonReview",  "@CanonTest",  "@DeskopTest",  "@HP3065", ] ,
+        labels:  [ "@AllTest",  "@SmokeTestEdit",  "@TestAccount",  "@TestEditInfo",  "@UnitIntegration",  "@UserLogin", ] ,
         datasets: [
             {
                 label: "Passed",
                 backgroundColor: "#92DD96",
-                data:  [ 100.00,  100.00,  100.00,  100.00,  100.00, ]             },
+                data:  [ 66.67,  100.00,  0.00,  100.00,  66.67,  100.00, ]             },
             {
                 label: "Failed",
                 backgroundColor: "#F2928C",
-                data:  [ 0.00,  0.00,  0.00,  0.00,  0.00, ]             },
+                data:  [ 6.67,  0.00,  20.00,  0.00,  6.67,  0.00, ]             },
             {
                 label: "Skipped",
                 backgroundColor: "#8AF",
-                data:  [ 0.00,  0.00,  0.00,  0.00,  0.00, ]             },
+                data:  [ 26.67,  0.00,  80.00,  0.00,  26.67,  0.00, ]             },
             {
                 label: "Pending",
                 backgroundColor: "#F5F28F",
-                data:  [ 0.00,  0.00,  0.00,  0.00,  0.00, ]             },
+                data:  [ 0.00,  0.00,  0.00,  0.00,  0.00,  0.00, ]             },
             {
                 label: "Undefined",
                 backgroundColor: "#F5B975",
-                data:  [ 0.00,  0.00,  0.00,  0.00,  0.00, ]             }
+                data:  [ 0.00,  0.00,  0.00,  0.00,  0.00,  0.00, ]             }
         ]
     };
 
@@ -133,7 +133,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Tek School Retail Website - Phoenix</td>
               <td>1</td>
-            <td>09 Feb 2022, 19:56</td>
+            <td>13 Feb 2022, 14:26</td>
     </tr>
   </tbody>
 </table>
@@ -195,75 +195,24 @@ $(document).ready(function() {
 
   <tbody>
           <tr>
-        <td class="tagname"><a href="report-tag_3174232174.html">@AllHomePage</a></td>
+        <td class="tagname"><a href="report-tag_2770684274.html">@AllTest</a></td>
 
-        <td      class="passed"    >15</td>
-        <td >0</td>
-        <td >0</td>
+        <td      class="passed"    >10</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >4</td>
         <td >0</td>
         <td >0</td>
         <td class="total">15</td>
 
-        <td  class="passed"    >4</td>
-        <td >0</td>
+        <td  class="passed"    >3</td>
+        <td  class="failed"    >1</td>
         <td class="total">4</td>
 
-        <td class="duration" data-value="18819285800">18.819</td>
-        <td class="passed">Passed</td>
+        <td class="duration" data-value="27226477900">27.226</td>
+        <td class="failed">Failed</td>
       </tr>
           <tr>
-        <td class="tagname"><a href="report-tag_12811654.html">@CanonReview</a></td>
-
-        <td      class="passed"    >5</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">5</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="4642260300">4.642</td>
-        <td class="passed">Passed</td>
-      </tr>
-          <tr>
-        <td class="tagname"><a href="report-tag_992250496.html">@CanonTest</a></td>
-
-        <td      class="passed"    >5</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">5</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="4958459600">4.958</td>
-        <td class="passed">Passed</td>
-      </tr>
-          <tr>
-        <td class="tagname"><a href="report-tag_2781635147.html">@DeskopTest</a></td>
-
-        <td      class="passed"    >1</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="2090403300">2.090</td>
-        <td class="passed">Passed</td>
-      </tr>
-          <tr>
-        <td class="tagname"><a href="report-tag_954924835.html">@HP3065</a></td>
+        <td class="tagname"><a href="report-tag_2061857770.html">@SmokeTestEdit</a></td>
 
         <td      class="passed"    >4</td>
         <td >0</td>
@@ -276,7 +225,75 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="7128162600">7.128</td>
+        <td class="duration" data-value="4298485200">4.298</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="report-tag_1916794074.html">@TestAccount</a></td>
+
+        <td >0</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >4</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">5</td>
+
+        <td >0</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="20059040100">20.059</td>
+        <td class="failed">Failed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="report-tag_3029933289.html">@TestEditInfo</a></td>
+
+        <td      class="passed"    >4</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">4</td>
+
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="2288056100">2.288</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="report-tag_3224443215.html">@UnitIntegration</a></td>
+
+        <td      class="passed"    >10</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >4</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">15</td>
+
+        <td  class="passed"    >3</td>
+        <td  class="failed"    >1</td>
+        <td class="total">4</td>
+
+        <td class="duration" data-value="27226477900">27.226</td>
+        <td class="failed">Failed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="report-tag_486351357.html">@UserLogin</a></td>
+
+        <td      class="passed"    >2</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">2</td>
+
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="580896500">0.580</td>
         <td class="passed">Passed</td>
       </tr>
       </tbody>
@@ -285,32 +302,32 @@ $(document).ready(function() {
     <tr>
       <td></td>
       <td>30</td>
+      <td>3</td>
+      <td>12</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>30</td>
+      <td>45</td>
 
-      <td>8</td>
-      <td>0</td>
-      <td>8</td>
+      <td>3</td>
+      <td>9</td>
+      <td>12</td>
 
-      <td class="duration">37.638</td>
-      <td>5</td>
+      <td class="duration">1:21.679</td>
+      <td>6</td>
     </tr>
     <tr>
       <td></td>
-            <td>100.00%</td>
-      <td>0.00%</td>
-      <td>0.00%</td>
+            <td>66.67%</td>
+      <td>6.67%</td>
+      <td>26.67%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>
-      <td>100.00%</td>
+      <td>25.00%</td>
+      <td>75.00%</td>
+      <td></td>
+      <td></td>
       <td>0.00%</td>
-      <td></td>
-      <td></td>
-      <td>100.00%</td>
     </tr>
   </tfoot>
 </table>

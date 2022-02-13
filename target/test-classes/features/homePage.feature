@@ -1,9 +1,9 @@
-@AllValidation
+@HmePageTest @UnitRegression
 Feature: Home Page
 
 
 
-@VerifyCurrency
+@VerifyCurrency @Smoke
 Scenario: User verify currency values change
 
 Given User is on Retail website
@@ -11,7 +11,7 @@ When User click on Currency
 And User Chose Euro from dropdown 
 Then currency value should change to Euro
 
-@CartEmpy
+@CartEmpy @Smoke
 Scenario: User empty Shopping cart message displays 
 
 Given User is on Retail website

@@ -1,25 +1,25 @@
-@AllTest
+@AllTest @UnitIntegration
 Feature: for this feature you have to have an existing account
 
 Background:
 Given User is on Retail website 
 And User click  on MyAccount
 When  User click on Login 
-And User enter username <'jameden@tekschoo.us'> and password <'1234567890'> 
+And User enter username <'armanasman@tekshool.com'> and password <'123456789'> 
 And User click on Login button
-#Then User should see a success message
+
+
+@UserLogin
+Scenario: User loggin in to my Account
+
+Given User is on Retail website 
+
 Then User should be logged in to MyAccount dashboard
 
 
-Scenario: User loggin in to my Account
 
 
-
-
-
-
-
-@TestAccount
+@TestAccount  @UnitIntegration
 Scenario: Register as an Affiliate user with Cheque Payment Method
 
 When User click on ‘Register for an Affiliate Account’ link 
@@ -29,8 +29,7 @@ And User fill affiliate form with below information
 And User check on About us check box 
 And User click on Continue button 
 Then User should see a success message 
-#And User click on Continue button 
-#Then User should see a success message
+
 
 
 
@@ -57,14 +56,10 @@ And User click on Continue button
 
 @TestEditInfo
 Scenario: Edit your account Information 
-#Given User is on Retail website 
-#And User click  on MyAccount
-#When  User click on Login 
-#And User enter username <'james@tekschoo.us'> and password <'123456789'> 
-#And User click on Login button
+
 When User click on ‘Edit your account information’ link 
 And User modify below information 
 |firstname|lastName|email|telephone|
-|James|Hendrik|jameden@tekschoo.us|202-202-2222|
+|James|Hendrik|armanasman@tekshool.com|202-202-2222|
 And User click on continue button 
 Then User should see a message ‘Success: Your account has been successfully updated.’

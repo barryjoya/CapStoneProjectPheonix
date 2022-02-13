@@ -161,7 +161,7 @@ public class RetailPageObject extends Base{
 		submitButton.click();
 	}
 	
-	@FindBy(xpath="//div[@id='content']")
+	@FindBy(xpath="//div[@id='content']//h2[text()='My Account']")
 	private WebElement verifyLoginPage;
 	
 	public boolean getVerifyLoginPage() {

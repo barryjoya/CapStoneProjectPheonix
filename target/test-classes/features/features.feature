@@ -1,4 +1,4 @@
-@AllHomePage @EndToEnd @Smoke @Regresion
+@DeskTopPage @UnitIntegration
 Feature:  DesktopsPage
 
 Background: 
@@ -9,7 +9,7 @@ And User click on Show all desktops
 
 
 
-@DeskopTest
+@UnitTesting  @Smoke 
 Scenario: User verify all items are present in Desktops tab
 
 Then User should see all items are present in Desktop page
@@ -17,7 +17,7 @@ Then User should see all items are present in Desktop page
 
 
 
-@HP3065
+@HP3065 @Sanity
 Scenario: User add HP LP 3065  from Desktops tab to the cart
 
  
@@ -29,7 +29,7 @@ Then User should see a message ‘Success: you have added HP LP 3065 to your Sho
 
 
 
-@CanonTest
+@CanonTest @Smoke
 Scenario: User add Canon EOS 5D from Desktops tab to the cart
 
 
@@ -42,7 +42,7 @@ Then User should see a message ‘Success: You have added Canon EOS 5D to your s
 
 
 
-@CanonReview
+@CanonReview @Smoke
 Scenario: User add a review to Canon EOS 5D item in Desktops tab
 
 

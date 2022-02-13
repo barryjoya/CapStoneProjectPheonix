@@ -45,13 +45,10 @@ public class loginStepDefintion extends Base{
 
 	@Then("User should be logged in to MyAccount dashboard")
 	public void user_should_be_logged_in_to_my_account_dashboard() throws IOException {
-//		String expectedText = "My Account";
-//		boolean acutalText = obj.getVerifyLoginPage();
-//	    Assert.assertEquals(expectedText, acutalText);
-	    
-		Assert.assertTrue(true);
+    
+		//Assert.assertTrue(true);
 		
-	    //Assert.assertEquals(obj.getVerifyLoginPage(), false);
+	    Assert.assertEquals(obj.getVerifyLoginPage(), true);
 	  //  Utilities.highlightelementRedBorder(obj.verifyLoginPage);
 	       Utilities.takeScreenShot("Login Page ");
 	   

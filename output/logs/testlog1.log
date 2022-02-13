@@ -3080,3 +3080,337 @@
 2022-02-09 19:56:32,873 [main] INFO logger_file - User Clicked on Continue Button
 2022-02-09 19:56:34,608 [main] INFO logger_file - User See Success Message
 2022-02-09 19:56:35,121 [main] INFO logger_file - Scenario User add a review to Canon EOS 5D item in Desktops tab PASSED
+2022-02-12 23:16:56,530 [main] INFO logger_file - ScenarioUser verify all items are present in Desktops tabStarted
+2022-02-12 23:17:07,988 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-12 23:17:08,055 [main] INFO logger_file - user click on desktop
+2022-02-12 23:17:08,662 [main] INFO logger_file - user click on Show all desktop
+2022-02-12 23:17:09,781 [main] INFO logger_file - Desktop Message Shown
+2022-02-12 23:17:11,318 [main] INFO logger_file - Scenario User verify all items are present in Desktops tab PASSED
+2022-02-12 23:17:11,406 [main] INFO logger_file - ScenarioUser add HP LP 3065  from Desktops tab to the cartStarted
+2022-02-12 23:17:14,974 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-12 23:17:15,080 [main] INFO logger_file - user click on desktop
+2022-02-12 23:17:15,741 [main] INFO logger_file - user click on Show all desktop
+2022-02-12 23:17:16,013 [main] INFO logger_file - HP added To Cart
+2022-02-12 23:17:17,825 [main] INFO logger_file - Quantity Added 2
+2022-02-12 23:17:17,903 [main] INFO logger_file - 2 HP added
+2022-02-12 23:17:21,367 [main] INFO logger_file - Message Shown Succesfully
+2022-02-12 23:17:22,605 [main] INFO logger_file - Scenario User add HP LP 3065  from Desktops tab to the cart PASSED
+2022-02-12 23:17:22,703 [main] INFO logger_file - ScenarioUser add Canon EOS 5D from Desktops tab to the cartStarted
+2022-02-12 23:17:26,021 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-12 23:17:26,182 [main] INFO logger_file - user click on desktop
+2022-02-12 23:17:26,909 [main] INFO logger_file - user click on Show all desktop
+2022-02-12 23:17:27,162 [main] INFO logger_file - Canon is Added to Cart
+2022-02-12 23:17:28,961 [main] INFO logger_file - Red color is Selected
+2022-02-12 23:17:29,320 [main] INFO logger_file - Quantity Added 2
+2022-02-12 23:17:29,506 [main] INFO logger_file - 2 HP added
+2022-02-12 23:17:29,887 [main] INFO logger_file - Success Message is Shown
+2022-02-12 23:17:32,138 [main] INFO logger_file - Scenario User add Canon EOS 5D from Desktops tab to the cart PASSED
+2022-02-12 23:17:32,196 [main] INFO logger_file - ScenarioUser add a review to Canon EOS 5D item in Desktops tabStarted
+2022-02-12 23:17:35,602 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-12 23:17:35,676 [main] INFO logger_file - user click on desktop
+2022-02-12 23:17:36,319 [main] INFO logger_file - user click on Show all desktop
+2022-02-12 23:17:38,203 [main] INFO logger_file - User Clicked On Canon Image
+2022-02-12 23:17:38,572 [main] INFO logger_file - User Clicked On Review Button
+2022-02-12 23:17:39,463 [main] INFO logger_file - User Clicked on Continue Button
+2022-02-12 23:17:41,420 [main] INFO logger_file - User See Success Message
+2022-02-12 23:17:41,770 [main] INFO logger_file - Scenario User add a review to Canon EOS 5D item in Desktops tab PASSED
+2022-02-13 13:08:20,644 [main] INFO logger_file - ScenarioRegister as an Affiliate user with Cheque Payment MethodStarted
+2022-02-13 13:08:27,760 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:08:27,863 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 13:08:28,175 [main] INFO logger_file - User clicked on Login
+2022-02-13 13:08:28,399 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 13:08:29,034 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 13:08:29,717 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 13:08:50,280 [main] INFO logger_file - Scenario Register as an Affiliate user with Cheque Payment Method FAILED
+2022-02-13 13:08:50,353 [main] INFO logger_file - ScenarioEdit your affiliate information from Cheque payment method to Bank TransferStarted
+2022-02-13 13:08:53,811 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:08:53,898 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 13:08:54,220 [main] INFO logger_file - User clicked on Login
+2022-02-13 13:08:54,598 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 13:08:55,193 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 13:08:55,781 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 13:08:56,227 [main] INFO logger_file - User click on Edit your affiliate information link
+2022-02-13 13:08:56,379 [main] INFO logger_file - User Click on transfer Radio button
+2022-02-13 13:09:00,631 [main] INFO logger_file - User Click on Continue Button
+2022-02-13 13:09:00,993 [main] INFO logger_file - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer PASSED
+2022-02-13 13:09:01,090 [main] INFO logger_file - ScenarioEdit your account InformationStarted
+2022-02-13 13:09:04,923 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:09:05,121 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 13:09:05,677 [main] INFO logger_file - User clicked on Login
+2022-02-13 13:09:05,911 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 13:09:06,439 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 13:09:07,048 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 13:09:07,856 [main] INFO logger_file - User Clicked on Edit Information
+2022-02-13 13:09:09,559 [main] INFO logger_file - User Clicked on Continue Option
+2022-02-13 13:09:10,278 [main] INFO logger_file - user see success message
+2022-02-13 13:09:10,439 [main] INFO logger_file - Scenario Edit your account Information PASSED
+2022-02-13 13:10:30,420 [main] INFO logger_file - ScenarioRegister as an Affiliate user with Cheque Payment MethodStarted
+2022-02-13 13:10:35,223 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:10:35,312 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 13:10:36,821 [main] INFO logger_file - User clicked on Login
+2022-02-13 13:10:37,316 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 13:10:37,851 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 13:10:38,464 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 13:10:44,790 [main] INFO logger_file - ScenarioEdit your affiliate information from Cheque payment method to Bank TransferStarted
+2022-02-13 13:10:48,032 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:10:48,153 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 13:10:48,548 [main] INFO logger_file - User clicked on Login
+2022-02-13 13:10:48,843 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 13:10:49,415 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 13:10:50,177 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 13:10:51,460 [main] INFO logger_file - User click on Edit your affiliate information link
+2022-02-13 13:10:51,661 [main] INFO logger_file - User Click on transfer Radio button
+2022-02-13 13:10:56,095 [main] INFO logger_file - User Click on Continue Button
+2022-02-13 13:10:56,331 [main] INFO logger_file - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer PASSED
+2022-02-13 13:10:56,389 [main] INFO logger_file - ScenarioEdit your account InformationStarted
+2022-02-13 13:11:00,209 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:11:00,308 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 13:11:00,779 [main] INFO logger_file - User clicked on Login
+2022-02-13 13:11:01,286 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 13:11:01,812 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 13:11:02,588 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 13:11:03,670 [main] INFO logger_file - User Clicked on Edit Information
+2022-02-13 13:11:05,289 [main] INFO logger_file - User Clicked on Continue Option
+2022-02-13 13:11:06,018 [main] INFO logger_file - user see success message
+2022-02-13 13:11:06,224 [main] INFO logger_file - Scenario Edit your account Information PASSED
+2022-02-13 13:15:08,412 [main] INFO logger_file - ScenarioRegister as an Affiliate user with Cheque Payment MethodStarted
+2022-02-13 13:15:13,910 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:15:14,007 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 13:15:14,572 [main] INFO logger_file - User clicked on Login
+2022-02-13 13:15:15,040 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 13:15:15,448 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 13:15:16,196 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 13:16:08,150 [main] INFO logger_file - ScenarioRegister as an Affiliate user with Cheque Payment MethodStarted
+2022-02-13 13:16:13,403 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:16:13,490 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 13:16:13,882 [main] INFO logger_file - User clicked on Login
+2022-02-13 13:16:14,360 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 13:16:14,874 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 13:16:15,637 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 13:16:16,166 [main] INFO logger_file - User clicked on Affiliate button
+2022-02-13 13:16:17,530 [main] INFO logger_file - User checked on CheckBox Button
+2022-02-13 13:16:21,338 [main] INFO logger_file - User Click on Continue Button
+2022-02-13 13:16:24,849 [main] INFO logger_file - user see Congratulation message
+2022-02-13 13:16:25,073 [main] INFO logger_file - Scenario Register as an Affiliate user with Cheque Payment Method PASSED
+2022-02-13 13:16:25,115 [main] INFO logger_file - ScenarioEdit your affiliate information from Cheque payment method to Bank TransferStarted
+2022-02-13 13:16:28,225 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:16:28,311 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 13:16:28,858 [main] INFO logger_file - User clicked on Login
+2022-02-13 13:16:29,252 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 13:16:29,802 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 13:16:30,403 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 13:16:30,836 [main] INFO logger_file - User click on Edit your affiliate information link
+2022-02-13 13:16:31,058 [main] INFO logger_file - User Click on transfer Radio button
+2022-02-13 13:16:35,726 [main] INFO logger_file - User Click on Continue Button
+2022-02-13 13:16:35,900 [main] INFO logger_file - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer PASSED
+2022-02-13 13:16:35,952 [main] INFO logger_file - ScenarioEdit your account InformationStarted
+2022-02-13 13:16:39,410 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:16:39,563 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 13:16:39,932 [main] INFO logger_file - User clicked on Login
+2022-02-13 13:16:40,222 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 13:16:40,678 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 13:16:41,492 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 13:16:42,543 [main] INFO logger_file - User Clicked on Edit Information
+2022-02-13 13:16:44,475 [main] INFO logger_file - User Clicked on Continue Option
+2022-02-13 13:16:45,108 [main] INFO logger_file - user see success message
+2022-02-13 13:16:45,292 [main] INFO logger_file - Scenario Edit your account Information PASSED
+2022-02-13 13:30:05,155 [main] INFO logger_file - ScenarioAdd and Remove a Mac book from CartStarted
+2022-02-13 13:30:10,268 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:30:10,368 [main] INFO logger_file - User Clicked on Laptop tab
+2022-02-13 13:30:10,991 [main] INFO logger_file - User Clicked On show All Laptop
+2022-02-13 13:30:14,036 [main] INFO logger_file - User Clicked on Macbook item
+2022-02-13 13:30:14,152 [main] INFO logger_file - 2 HP added
+2022-02-13 13:30:14,586 [main] INFO logger_file - User See (Success: You have added) 
+2022-02-13 13:30:14,704 [main] INFO logger_file - User Sees Price on Add To Cart
+2022-02-13 13:30:14,926 [main] INFO logger_file - user clicked on add to cart Button
+2022-02-13 13:30:15,048 [main] INFO logger_file - User clicked on 
+2022-02-13 13:30:17,883 [main] INFO logger_file - End Message Shown
+2022-02-13 13:30:18,379 [main] INFO logger_file - Scenario Add and Remove a Mac book from Cart PASSED
+2022-02-13 13:30:18,460 [main] INFO logger_file - ScenarioProduct ComparisonStarted
+2022-02-13 13:30:23,055 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:30:23,171 [main] INFO logger_file - User Clicked on Laptop tab
+2022-02-13 13:30:23,779 [main] INFO logger_file - User Clicked On show All Laptop
+2022-02-13 13:30:23,985 [main] INFO logger_file - user clicked on macbook 
+2022-02-13 13:30:24,052 [main] INFO logger_file - user clicked on Macbook Air
+2022-02-13 13:30:24,154 [main] INFO logger_file - User See success Message
+2022-02-13 13:30:24,532 [main] INFO logger_file - user clicked on product comparison
+2022-02-13 13:30:25,679 [main] INFO logger_file - Success Message is Shown
+2022-02-13 13:30:25,870 [main] INFO logger_file - Scenario Product Comparison PASSED
+2022-02-13 13:30:25,938 [main] INFO logger_file - ScenarioAdding an item to Wish listStarted
+2022-02-13 13:30:31,957 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:30:32,187 [main] INFO logger_file - User Clicked on Laptop tab
+2022-02-13 13:30:32,825 [main] INFO logger_file - User Clicked On show All Laptop
+2022-02-13 13:30:33,043 [main] INFO logger_file - user clicked on WishList Button
+2022-02-13 13:30:37,102 [main] INFO logger_file - Scenario Adding an item to Wish list PASSED
+2022-02-13 13:30:37,170 [main] INFO logger_file - ScenarioValidate the price of MacBook Pro is 2000Started
+2022-02-13 13:30:42,111 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:30:42,307 [main] INFO logger_file - User Clicked on Laptop tab
+2022-02-13 13:30:43,767 [main] INFO logger_file - User Clicked On show All Laptop
+2022-02-13 13:30:46,654 [main] INFO logger_file - User Clicked On Macbook Pro
+2022-02-13 13:30:47,393 [main] INFO logger_file - user sees $2000 on UI
+2022-02-13 13:30:47,771 [main] INFO logger_file - Scenario Validate the price of MacBook Pro is 2000 PASSED
+2022-02-13 13:50:08,954 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 13:50:14,990 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:50:15,083 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 13:50:15,409 [main] INFO logger_file - User clicked on Login
+2022-02-13 13:50:15,650 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 13:50:16,356 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 13:50:17,060 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 13:50:17,167 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:50:17,259 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 13:50:56,029 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 13:51:02,064 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:51:02,152 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 13:51:02,642 [main] INFO logger_file - User clicked on Login
+2022-02-13 13:51:03,151 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 13:51:03,732 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 13:51:04,425 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 13:51:04,580 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:51:04,682 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 13:56:41,612 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 13:56:46,920 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:56:47,024 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 13:56:47,354 [main] INFO logger_file - User clicked on Login
+2022-02-13 13:56:47,701 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 13:56:48,249 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 13:56:48,889 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 13:56:48,989 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 13:56:49,054 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:03:31,352 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 14:03:36,028 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:03:36,132 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:03:36,573 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:03:36,910 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:03:37,510 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:03:38,149 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 14:03:38,222 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:03:38,287 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:03:58,861 [main] INFO logger_file - Scenario User loggin in to my Account FAILED
+2022-02-13 14:06:48,603 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 14:06:52,808 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:06:52,955 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:06:53,306 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:06:53,648 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:06:54,125 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:06:54,779 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 14:06:54,839 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:06:54,900 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:08:14,633 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 14:08:18,902 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:08:18,993 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:08:19,375 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:08:19,735 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:08:20,317 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:08:21,008 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 14:08:21,081 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:08:21,145 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:08:55,677 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 14:09:00,058 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:09:00,177 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:09:00,498 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:09:00,905 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:09:01,431 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:09:01,518 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:09:01,594 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:09:36,629 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 14:09:41,021 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:09:41,155 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:09:41,562 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:09:41,901 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:09:42,560 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:09:42,658 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:09:42,720 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:10:21,766 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 14:10:26,280 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:10:26,404 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:10:26,736 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:10:27,046 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:10:27,588 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:10:27,731 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:10:27,796 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:10:28,464 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 14:10:28,837 [main] INFO logger_file - Scenario User loggin in to my Account PASSED
+2022-02-13 14:10:54,439 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 14:10:58,719 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:10:58,826 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:10:59,193 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:10:59,536 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:11:00,090 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:11:00,183 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:11:00,768 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 14:11:01,036 [main] INFO logger_file - Scenario User loggin in to my Account PASSED
+2022-02-13 14:11:35,981 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 14:11:40,387 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:11:40,521 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:11:40,851 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:11:41,180 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:11:41,741 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:11:41,845 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:11:42,478 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 14:11:42,760 [main] INFO logger_file - Scenario User loggin in to my Account PASSED
+2022-02-13 14:14:39,682 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 14:14:44,059 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:14:44,209 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:14:44,559 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:14:44,907 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:14:45,208 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:14:45,324 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:15:09,709 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 14:15:16,607 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:15:16,735 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:15:17,288 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:15:17,589 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:15:18,038 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:15:18,139 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:23:49,144 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 14:23:54,398 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:23:54,475 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:23:54,768 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:23:54,968 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:23:55,270 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:23:55,351 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:25:00,687 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 14:25:04,496 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:25:04,607 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:25:04,897 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:25:05,119 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:25:05,514 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:25:05,585 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:25:05,981 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 14:25:06,137 [main] INFO logger_file - Scenario User loggin in to my Account PASSED
+2022-02-13 14:25:53,761 [main] INFO logger_file - ScenarioUser loggin in to my AccountStarted
+2022-02-13 14:25:57,595 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:25:57,675 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:25:58,025 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:25:58,233 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:25:58,727 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:25:58,813 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:25:59,310 [main] INFO logger_file - User see UserName and Password Logged in Succesfully
+2022-02-13 14:25:59,470 [main] INFO logger_file - Scenario User loggin in to my Account PASSED
+2022-02-13 14:25:59,548 [main] INFO logger_file - ScenarioRegister as an Affiliate user with Cheque Payment MethodStarted
+2022-02-13 14:26:02,550 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:26:02,620 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:26:02,947 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:26:03,193 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:26:03,628 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:26:23,862 [main] INFO logger_file - Scenario Register as an Affiliate user with Cheque Payment Method FAILED
+2022-02-13 14:26:23,920 [main] INFO logger_file - ScenarioEdit your affiliate information from Cheque payment method to Bank TransferStarted
+2022-02-13 14:26:26,975 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:26:27,060 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:26:27,402 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:26:27,629 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:26:28,034 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:26:28,384 [main] INFO logger_file - User click on Edit your affiliate information link
+2022-02-13 14:26:28,453 [main] INFO logger_file - User Click on transfer Radio button
+2022-02-13 14:26:32,338 [main] INFO logger_file - User Click on Continue Button
+2022-02-13 14:26:32,496 [main] INFO logger_file - Scenario Edit your affiliate information from Cheque payment method to Bank Transfer PASSED
+2022-02-13 14:26:32,536 [main] INFO logger_file - ScenarioEdit your account InformationStarted
+2022-02-13 14:26:35,955 [main] INFO logger_file - Text WebPage is Displayed
+2022-02-13 14:26:36,047 [main] INFO logger_file - User Clicked on MyAccount
+2022-02-13 14:26:36,371 [main] INFO logger_file - User clicked on Login
+2022-02-13 14:26:36,634 [main] INFO logger_file - User Entered UserName and Password
+2022-02-13 14:26:37,043 [main] INFO logger_file - User Clicked On Submit Button
+2022-02-13 14:26:37,856 [main] INFO logger_file - User Clicked on Edit Information
+2022-02-13 14:26:38,923 [main] INFO logger_file - User Clicked on Continue Option
+2022-02-13 14:26:39,335 [main] INFO logger_file - user see success message
+2022-02-13 14:26:39,510 [main] INFO logger_file - Scenario Edit your account Information PASSED
