@@ -63,3 +63,12 @@ And User modify below information
 |James|Hendrik|armanasman1@tekshool.com|202-202-2222|
 And User click on continue button 
 Then User should see a message ‘Success: Your account has been successfully updated.’
+
+
+
+
+
+
+
+
+

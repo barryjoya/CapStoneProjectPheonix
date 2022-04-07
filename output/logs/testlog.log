@@ -3818,3 +3818,308 @@
 2022-02-13 16:26:52,008 - logger_file -INFO - User Clicked on Continue Button
 2022-02-13 16:26:54,592 - logger_file -INFO - User See Success Message
 2022-02-13 16:26:54,898 - logger_file -INFO - Scenario User add a review to Canon EOS 5D item in Desktops tab PASSED
+2022-03-15 16:51:13,237 - logger_file -INFO - ScenarioUser loggin in to my AccountStarted
+2022-03-15 16:51:24,273 - logger_file -INFO - Text WebPage is Displayed
+2022-03-15 16:51:24,370 - logger_file -INFO - User Clicked on MyAccount
+2022-03-15 16:51:24,700 - logger_file -INFO - User clicked on Login
+2022-03-15 16:51:24,888 - logger_file -INFO - User Entered UserName and Password
+2022-03-15 16:51:25,746 - logger_file -INFO - User Clicked On Submit Button
+2022-03-15 16:51:25,811 - logger_file -INFO - Text WebPage is Displayed
+2022-03-15 16:52:56,981 - logger_file -INFO - Scenariouser click on retail login buttonStarted
+2022-03-15 16:53:03,633 - logger_file -INFO - Scenario user click on retail login button UNDEFINED
+2022-03-15 16:53:03,701 - logger_file -INFO - Scenariouser click on retail login buttonStarted
+2022-03-15 16:53:09,806 - logger_file -INFO - Scenario user click on retail login button UNDEFINED
+2022-03-15 16:53:09,835 - logger_file -INFO - Scenariouser click on retail login buttonStarted
+2022-03-15 16:53:15,924 - logger_file -INFO - Scenario user click on retail login button UNDEFINED
+2022-03-15 16:56:43,185 - logger_file -INFO - ScenarioUser loggin in to my AccountStarted
+2022-03-15 16:56:49,590 - logger_file -INFO - Text WebPage is Displayed
+2022-03-15 16:56:49,654 - logger_file -INFO - User Clicked on MyAccount
+2022-03-15 16:56:49,921 - logger_file -INFO - User clicked on Login
+2022-03-15 16:56:50,129 - logger_file -INFO - User Entered UserName and Password
+2022-03-15 16:56:50,633 - logger_file -INFO - User Clicked On Submit Button
+2022-03-15 16:56:50,689 - logger_file -INFO - Text WebPage is Displayed
+2022-03-15 16:57:28,224 - logger_file -INFO - User see UserName and Password Logged in Succesfully
+2022-03-15 16:57:28,566 - logger_file -INFO - Scenario User loggin in to my Account PASSED
+2022-03-15 16:57:28,646 - logger_file -INFO - ScenarioRegister as an Affiliate user with Cheque Payment MethodStarted
+2022-03-15 16:57:34,672 - logger_file -INFO - Text WebPage is Displayed
+2022-03-15 16:57:34,734 - logger_file -INFO - User Clicked on MyAccount
+2022-03-15 16:57:35,096 - logger_file -INFO - User clicked on Login
+2022-03-15 16:57:35,271 - logger_file -INFO - User Entered UserName and Password
+2022-03-15 16:57:35,668 - logger_file -INFO - User Clicked On Submit Button
+2022-03-15 16:57:35,929 - logger_file -INFO - User clicked on Affiliate button
+2022-03-15 16:57:36,361 - logger_file -INFO - User checked on CheckBox Button
+2022-03-15 16:57:39,834 - logger_file -INFO - User Click on Continue Button
+2022-03-15 16:58:11,279 - logger_file -INFO - ScenarioEdit your affiliate information from Cheque payment method to Bank TransferStarted
+2022-03-15 16:58:16,997 - logger_file -INFO - Text WebPage is Displayed
+2022-03-15 16:58:17,065 - logger_file -INFO - User Clicked on MyAccount
+2022-03-15 16:58:17,414 - logger_file -INFO - User clicked on Login
+2022-03-15 16:58:17,594 - logger_file -INFO - User Entered UserName and Password
+2022-03-15 16:58:18,396 - logger_file -INFO - User Clicked On Submit Button
+2022-03-15 16:58:18,654 - logger_file -INFO - User click on Edit your affiliate information link
+2022-03-15 16:58:18,714 - logger_file -INFO - User Click on transfer Radio button
+2022-03-15 16:58:28,932 - logger_file -INFO - ScenarioEdit your account InformationStarted
+2022-03-15 16:58:34,600 - logger_file -INFO - Text WebPage is Displayed
+2022-03-15 16:58:34,688 - logger_file -INFO - User Clicked on MyAccount
+2022-03-15 16:58:35,017 - logger_file -INFO - User clicked on Login
+2022-03-15 16:58:35,193 - logger_file -INFO - User Entered UserName and Password
+2022-03-15 16:58:35,585 - logger_file -INFO - User Clicked On Submit Button
+2022-03-15 16:59:09,351 - logger_file -INFO - Scenariouser click on retail login buttonStarted
+2022-03-15 16:59:15,143 - logger_file -INFO - Text WebPage is Displayed
+2022-03-15 16:59:15,210 - logger_file -INFO - User Clicked on MyAccount
+2022-03-15 16:59:15,481 - logger_file -INFO - User clicked on Login
+2022-03-15 16:59:15,662 - logger_file -INFO - User Entered UserName and Password
+2022-03-15 16:59:16,147 - logger_file -INFO - User Clicked On Submit Button
+2022-03-15 16:59:16,400 - logger_file -INFO - Scenario user click on retail login button UNDEFINED
+2022-03-15 16:59:16,423 - logger_file -INFO - Scenariouser click on retail login buttonStarted
+2022-03-15 16:59:22,841 - logger_file -INFO - Text WebPage is Displayed
+2022-03-15 16:59:22,903 - logger_file -INFO - User Clicked on MyAccount
+2022-03-15 16:59:23,242 - logger_file -INFO - User clicked on Login
+2022-03-15 16:59:23,430 - logger_file -INFO - User Entered UserName and Password
+2022-03-15 16:59:23,838 - logger_file -INFO - User Clicked On Submit Button
+2022-03-15 16:59:24,062 - logger_file -INFO - Scenario user click on retail login button UNDEFINED
+2022-03-15 16:59:24,093 - logger_file -INFO - Scenariouser click on retail login buttonStarted
+2022-03-15 16:59:30,040 - logger_file -INFO - Text WebPage is Displayed
+2022-03-15 16:59:30,095 - logger_file -INFO - User Clicked on MyAccount
+2022-03-15 16:59:30,375 - logger_file -INFO - User clicked on Login
+2022-03-15 16:59:30,550 - logger_file -INFO - User Entered UserName and Password
+2022-03-15 16:59:30,939 - logger_file -INFO - User Clicked On Submit Button
+2022-03-15 16:59:31,161 - logger_file -INFO - Scenario user click on retail login button UNDEFINED
+2022-03-15 22:32:45,887 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 22:32:53,396 - logger_file -INFO - Scenario Login to Test Environment Retail Page UNDEFINED
+2022-03-15 22:32:53,444 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 22:32:59,670 - logger_file -INFO - Scenario Login to Test Environment Retail Page UNDEFINED
+2022-03-15 22:32:59,701 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 22:33:06,212 - logger_file -INFO - Scenario Login to Test Environment Retail Page UNDEFINED
+2022-03-15 22:36:23,816 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 22:36:30,611 - logger_file -INFO - Scenario Login to Test Environment Retail Page UNDEFINED
+2022-03-15 22:36:30,652 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 22:36:36,574 - logger_file -INFO - Scenario Login to Test Environment Retail Page UNDEFINED
+2022-03-15 22:36:36,602 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 22:36:42,629 - logger_file -INFO - Scenario Login to Test Environment Retail Page UNDEFINED
+2022-03-15 22:40:04,703 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 22:40:11,186 - logger_file -INFO - Scenario Login to Test Environment Retail Page UNDEFINED
+2022-03-15 22:40:11,237 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 22:40:17,315 - logger_file -INFO - Scenario Login to Test Environment Retail Page UNDEFINED
+2022-03-15 22:40:17,348 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 22:40:24,467 - logger_file -INFO - Scenario Login to Test Environment Retail Page UNDEFINED
+2022-03-15 23:21:16,965 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 23:22:11,284 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 20:28:24,738 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 20:28:27,333 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 20:28:32,407 - logger_file -INFO - Scenario Login to Test Environment Retail Page FAILED
+2022-03-15 20:28:32,437 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 20:28:36,772 - logger_file -INFO - Scenario Login to Test Environment Retail Page FAILED
+2022-03-15 20:29:14,682 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 20:29:19,208 - logger_file -INFO - Scenario Login to Test Environment Retail Page FAILED
+2022-03-15 20:29:19,282 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 20:29:23,152 - logger_file -INFO - Scenario Login to Test Environment Retail Page FAILED
+2022-03-15 20:29:23,182 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 20:29:26,798 - logger_file -INFO - Scenario Login to Test Environment Retail Page FAILED
+2022-03-15 20:38:15,782 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 20:38:27,175 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-15 20:38:27,222 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 20:38:37,296 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-15 20:38:37,311 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 20:38:47,461 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-15 20:39:09,426 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 20:39:20,173 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-15 20:39:20,262 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 20:39:30,275 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-15 20:39:30,322 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-15 20:39:40,413 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-24 14:41:11,129 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-24 14:41:25,097 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-24 14:41:25,159 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-24 14:41:35,947 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-24 14:41:35,979 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-24 14:41:46,541 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-24 14:43:01,269 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-24 14:43:12,549 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-24 14:43:12,672 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-24 14:43:23,031 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-24 14:43:23,081 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-24 14:43:33,332 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-28 00:38:53,299 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-28 00:39:07,314 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-28 00:39:07,361 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-28 00:39:18,399 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-28 00:39:18,431 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-28 00:39:29,062 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-28 00:40:45,386 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-28 00:41:02,902 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-28 00:41:06,073 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-28 00:41:36,828 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-28 00:41:46,738 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-28 00:41:46,782 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-28 00:41:56,353 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-28 00:41:56,382 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-28 00:42:05,903 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-29 19:49:46,041 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-29 19:49:58,541 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-29 19:49:58,652 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-29 19:50:08,088 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-03-29 19:50:08,127 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-03-29 19:50:19,607 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-04-04 14:43:34,109 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 14:43:49,215 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-04-04 14:43:49,291 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 14:44:00,700 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-04-04 14:44:00,719 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 14:44:12,344 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-04-04 14:44:57,291 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 14:45:10,251 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-04-04 14:45:10,321 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 14:45:21,563 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-04-04 14:45:21,603 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 14:45:33,299 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-04-04 22:26:16,242 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 22:26:28,810 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-04-04 22:26:28,859 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 22:26:39,456 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-04-04 22:26:39,471 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 22:26:49,290 - logger_file -INFO - Scenario Login to Test Environment Retail Page PASSED
+2022-04-04 22:26:49,359 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-04 22:26:53,126 - logger_file -INFO - Scenario login into gmail account UNDEFINED
+2022-04-04 22:35:54,780 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 22:36:19,445 - logger_file -INFO - Scenario Login to Test Environment Retail Page FAILED
+2022-04-04 22:36:19,494 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 22:36:30,309 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 22:36:53,344 - logger_file -INFO - Scenario Login to Test Environment Retail Page FAILED
+2022-04-04 22:36:53,360 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-04 22:36:56,454 - logger_file -INFO - Scenario login into gmail account PENDING
+2022-04-04 22:37:19,046 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 22:37:30,575 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 22:37:54,748 - logger_file -INFO - Scenario Login to Test Environment Retail Page FAILED
+2022-04-04 22:37:54,748 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 22:38:18,215 - logger_file -INFO - Scenario Login to Test Environment Retail Page FAILED
+2022-04-04 22:38:18,231 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-04 22:38:21,623 - logger_file -INFO - Scenario login into gmail account PENDING
+2022-04-04 22:38:52,862 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 22:39:16,589 - logger_file -INFO - Scenario Login to Test Environment Retail Page FAILED
+2022-04-04 22:39:16,622 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 22:39:28,631 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 22:39:31,326 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-04 22:39:34,083 - logger_file -INFO - Scenario login into gmail account PENDING
+2022-04-04 23:27:05,301 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-04 23:27:29,279 - logger_file -INFO - Scenario login into gmail account FAILED
+2022-04-04 23:38:53,713 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 23:39:22,556 - logger_file -INFO - Scenario Login to Test Environment Retail Page FAILED
+2022-04-04 23:39:22,628 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 23:39:46,100 - logger_file -INFO - Scenario Login to Test Environment Retail Page FAILED
+2022-04-04 23:39:46,126 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 23:40:09,886 - logger_file -INFO - Scenario Login to Test Environment Retail Page FAILED
+2022-04-04 23:40:09,956 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-04 23:40:14,475 - logger_file -INFO - Scenario login into gmail account UNDEFINED
+2022-04-04 23:41:17,745 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-04 23:41:22,284 - logger_file -INFO - Scenario login into gmail account UNDEFINED
+2022-04-04 23:43:02,058 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 23:43:13,284 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 23:43:20,321 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-04 23:43:23,313 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-04 23:43:25,912 - logger_file -INFO - Scenario login into gmail account UNDEFINED
+2022-04-04 23:56:01,797 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-04 23:56:05,570 - logger_file -INFO - Scenario login into gmail account UNDEFINED
+2022-04-04 23:56:39,679 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-04 23:56:43,584 - logger_file -INFO - Scenario login into gmail account UNDEFINED
+2022-04-04 23:58:19,272 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-04 23:58:22,833 - logger_file -INFO - Scenario login into gmail account UNDEFINED
+2022-04-05 00:20:48,623 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 00:20:52,605 - logger_file -INFO - Scenario login into gmail account UNDEFINED
+2022-04-05 00:25:02,316 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 00:25:05,950 - logger_file -INFO - Scenario login into gmail account UNDEFINED
+2022-04-05 00:39:54,800 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 00:39:59,015 - logger_file -INFO - Scenario login into gmail account UNDEFINED
+2022-04-05 00:44:26,527 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 00:44:33,960 - logger_file -INFO - Scenario login into gmail account UNDEFINED
+2022-04-05 00:46:31,165 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 00:47:46,447 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 00:48:10,468 - logger_file -INFO - Scenario login into gmail account FAILED
+2022-04-05 00:49:52,131 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 00:50:16,236 - logger_file -INFO - Scenario login into gmail account FAILED
+2022-04-05 00:53:39,052 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 00:53:44,402 - logger_file -INFO - Scenario login into gmail account FAILED
+2022-04-05 00:53:58,460 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 00:54:06,996 - logger_file -INFO - Scenario login into gmail account FAILED
+2022-04-05 00:54:44,383 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 00:55:53,999 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 00:55:58,928 - logger_file -INFO - Scenario login into gmail account FAILED
+2022-04-05 05:39:23,976 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 05:39:49,300 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 05:41:29,539 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 05:42:14,437 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 05:42:35,499 - logger_file -INFO - Scenario login into gmail account FAILED
+2022-04-05 05:43:57,653 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 05:44:23,743 - logger_file -INFO - Scenario login into gmail account FAILED
+2022-04-05 11:50:30,352 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 12:22:21,644 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-05 12:22:39,750 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-05 12:22:55,942 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-05 12:23:17,195 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 12:23:59,766 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 12:24:17,183 - logger_file -INFO - Scenario User login to Amazon UNDEFINED
+2022-04-05 12:26:40,150 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-05 12:26:56,713 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-05 12:27:12,347 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-04-05 12:27:32,155 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-04-05 12:27:54,559 - logger_file -INFO - Scenario login into gmail account FAILED
+2022-04-05 12:27:54,596 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 12:28:10,185 - logger_file -INFO - Scenario User login to Amazon UNDEFINED
+2022-04-05 13:22:16,499 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 13:22:47,737 - logger_file -INFO - Scenario User login to Amazon FAILED
+2022-04-05 13:24:07,305 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 13:24:39,011 - logger_file -INFO - Scenario User login to Amazon FAILED
+2022-04-05 13:29:24,196 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 13:33:37,554 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 13:34:08,412 - logger_file -INFO - Scenario User login to Amazon FAILED
+2022-04-05 13:45:31,255 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 13:45:39,998 - logger_file -INFO - Message is displayed
+2022-04-05 13:45:41,156 - logger_file -INFO - User Clicked On Account
+2022-04-05 13:45:41,742 - logger_file -INFO - Scenario User login to Amazon UNDEFINED
+2022-04-05 13:46:58,605 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 13:47:06,487 - logger_file -INFO - Scenario User login to Amazon FAILED
+2022-04-05 13:49:39,453 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 13:49:47,735 - logger_file -INFO - Scenario User login to Amazon FAILED
+2022-04-05 13:51:56,463 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 13:52:03,120 - logger_file -INFO - Message is displayed
+2022-04-05 13:52:04,743 - logger_file -INFO - User Clicked On Account
+2022-04-05 13:52:05,275 - logger_file -INFO - Scenario User login to Amazon UNDEFINED
+2022-04-05 13:53:07,115 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 13:53:15,219 - logger_file -INFO - Message is displayed
+2022-04-05 13:53:16,443 - logger_file -INFO - User Clicked On Account
+2022-04-05 13:53:16,970 - logger_file -INFO - Scenario User login to Amazon UNDEFINED
+2022-04-05 13:54:07,477 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 13:54:14,517 - logger_file -INFO - Message is displayed
+2022-04-05 13:54:15,618 - logger_file -INFO - User Clicked On Account
+2022-04-05 13:54:36,917 - logger_file -INFO - Scenario User login to Amazon FAILED
+2022-04-05 14:00:10,627 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 14:00:18,318 - logger_file -INFO - Message is displayed
+2022-04-05 14:00:19,641 - logger_file -INFO - User Clicked On Account
+2022-04-05 14:00:21,445 - logger_file -INFO - user entered email and password
+2022-04-05 14:00:21,601 - logger_file -INFO - user click on Submit button
+2022-04-05 14:00:27,295 - logger_file -INFO - Scenario User login to Amazon FAILED
+2022-04-05 14:00:43,777 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 14:00:51,521 - logger_file -INFO - Message is displayed
+2022-04-05 14:00:52,592 - logger_file -INFO - User Clicked On Account
+2022-04-05 14:00:54,059 - logger_file -INFO - user entered email and password
+2022-04-05 14:00:54,213 - logger_file -INFO - user click on Submit button
+2022-04-05 14:00:58,683 - logger_file -INFO - Scenario User login to Amazon FAILED
+2022-04-05 14:04:10,379 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 14:04:18,191 - logger_file -INFO - Message is displayed
+2022-04-05 14:04:19,517 - logger_file -INFO - User Clicked On Account
+2022-04-05 14:04:21,212 - logger_file -INFO - user entered email and password
+2022-04-05 14:04:21,393 - logger_file -INFO - user click on Submit button
+2022-04-05 14:04:26,103 - logger_file -INFO - Scenario User login to Amazon PASSED
+2022-04-05 14:22:48,623 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 14:22:56,940 - logger_file -INFO - Message is displayed
+2022-04-05 14:22:58,250 - logger_file -INFO - User Clicked On Account
+2022-04-05 14:22:59,682 - logger_file -INFO - user entered email and password
+2022-04-05 14:22:59,814 - logger_file -INFO - user click on Submit button
+2022-04-05 14:23:03,471 - logger_file -INFO - Message is Shown Successfully
+2022-04-05 14:23:04,122 - logger_file -INFO - Scenario User login to Amazon PASSED
+2022-04-05 22:24:12,389 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-05 22:24:22,392 - logger_file -INFO - Message is displayed
+2022-04-05 22:24:23,417 - logger_file -INFO - User Clicked On Account
+2022-04-05 22:24:24,708 - logger_file -INFO - user entered email and password
+2022-04-05 22:24:24,832 - logger_file -INFO - user click on Submit button
+2022-04-05 22:24:28,864 - logger_file -INFO - Message is Shown Successfully
+2022-04-05 22:24:29,319 - logger_file -INFO - Scenario User login to Amazon PASSED

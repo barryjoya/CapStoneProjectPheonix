@@ -12,7 +12,7 @@ import utilities.CucumberReportingConfig;
 @CucumberOptions(
          features = "classpath:features",
          glue = "StepDefinition",
-         tags = "@DeskTopPage",
+         tags = "@Amazon",
          dryRun = false,
          strict = true,
          monochrome = true,
