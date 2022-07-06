@@ -4123,3 +4123,44 @@
 2022-04-05 22:24:24,832 - logger_file -INFO - user click on Submit button
 2022-04-05 22:24:28,864 - logger_file -INFO - Message is Shown Successfully
 2022-04-05 22:24:29,319 - logger_file -INFO - Scenario User login to Amazon PASSED
+2022-04-20 21:50:14,482 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-21 09:57:56,829 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-04-21 09:58:17,637 - logger_file -INFO - Message is displayed
+2022-04-21 09:58:29,725 - logger_file -INFO - User Clicked On Account
+2022-04-21 09:58:41,268 - logger_file -INFO - user entered email and password
+2022-04-21 09:58:41,347 - logger_file -INFO - user click on Submit button
+2022-05-08 21:24:35,009 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-05-08 21:24:54,590 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-05-08 21:25:18,390 - logger_file -INFO - ScenarioLogin to Test Environment Retail PageStarted
+2022-05-08 21:25:41,782 - logger_file -INFO - Scenariologin into gmail accountStarted
+2022-05-18 20:51:25,478 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-05-18 20:51:50,075 - logger_file -INFO - Scenario User login to Amazon FAILED
+2022-05-18 20:52:10,253 - logger_file -INFO - ScenarioUser login to AmazonStarted
+2022-05-18 20:53:35,572 - logger_file -INFO - ScenarioUser add a review to Canon EOS 5D item in Desktops tabStarted
+2022-05-18 20:56:42,346 - logger_file -INFO - ScenarioAdd and Remove a Mac book from CartStarted
+2022-05-19 12:25:04,337 - logger_file -INFO - ScenarioAdd and Remove a Mac book from CartStarted
+2022-05-19 12:25:31,773 - logger_file -INFO - Scenario Add and Remove a Mac book from Cart FAILED
+2022-05-19 12:54:48,893 - logger_file -INFO - ScenarioAdd and Remove a Mac book from CartStarted
+2022-05-19 12:54:54,599 - logger_file -INFO - Text WebPage is Displayed
+2022-05-19 12:54:54,791 - logger_file -INFO - User Clicked on Laptop tab
+2022-05-19 12:54:55,335 - logger_file -INFO - User Clicked On show All Laptop
+2022-05-19 12:54:56,961 - logger_file -INFO - User Clicked on Macbook item
+2022-05-19 12:54:57,062 - logger_file -INFO - 2 HP added
+2022-05-19 12:54:57,434 - logger_file -INFO - User See (Success: You have added) 
+2022-05-19 12:54:57,512 - logger_file -INFO - User Sees Price on Add To Cart
+2022-05-19 12:54:57,630 - logger_file -INFO - user clicked on add to cart Button
+2022-05-19 12:54:57,742 - logger_file -INFO - User clicked on 
+2022-05-19 12:55:00,710 - logger_file -INFO - End Message Shown
+2022-05-19 12:55:01,247 - logger_file -INFO - Scenario Add and Remove a Mac book from Cart PASSED
+2022-07-05 22:02:58,890 - logger_file -INFO - ScenarioAdd and Remove a Mac book from CartStarted
+2022-07-05 22:03:03,085 - logger_file -INFO - Text WebPage is Displayed
+2022-07-05 22:03:03,177 - logger_file -INFO - User Clicked on Laptop tab
+2022-07-05 22:03:03,616 - logger_file -INFO - User Clicked On show All Laptop
+2022-07-05 22:03:05,239 - logger_file -INFO - User Clicked on Macbook item
+2022-07-05 22:03:05,324 - logger_file -INFO - 2 HP added
+2022-07-05 22:03:05,553 - logger_file -INFO - User See (Success: You have added) 
+2022-07-05 22:03:05,583 - logger_file -INFO - User Sees Price on Add To Cart
+2022-07-05 22:03:05,645 - logger_file -INFO - user clicked on add to cart Button
+2022-07-05 22:03:05,710 - logger_file -INFO - User clicked on 
+2022-07-05 22:03:08,258 - logger_file -INFO - End Message Shown
+2022-07-05 22:03:08,648 - logger_file -INFO - Scenario Add and Remove a Mac book from Cart PASSED

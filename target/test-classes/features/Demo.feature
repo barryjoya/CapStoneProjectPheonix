@@ -26,3 +26,6 @@ Feature: user on Retail Websitee
       Then user see userName <'bariallaijoyandah@gmail.com'> and password <'frozan222'>
       And user click on submit button 
       And user see a amazon success message
+      
+      Scenario: user is on aol website
+      Given user click on 

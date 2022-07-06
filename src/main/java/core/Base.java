@@ -48,7 +48,8 @@ public class Base {
 	}
 	
 	
-
+ // just only to push the code for not going to 
+	// new added to do as well
 	public static String getUrl() {
 	
 		String url = properties.getProperty("url");

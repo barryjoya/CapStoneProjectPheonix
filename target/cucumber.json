@@ -3,11 +3,56 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-04-06T02:24:12.074Z",
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 156581500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "StepDefinition.DesktopPageStepDefinition.user_is_on_retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91755900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Laptop \u0026NoteBook tab",
+            "match": {
+              "location": "StepDefinition.AddRemoveMacbook.user_click_on_laptop_note_book_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 436829900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on Show all Laptop \u0026NoteBook option",
+            "match": {
+              "location": "StepDefinition.AddRemoveMacbook.user_click_on_show_all_laptop_note_book_option()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-06T02:02:58.670Z",
         "before": [
           {
             "result": {
-              "duration": 9712305600,
+              "duration": 4171628800,
               "status": "passed"
             },
             "match": {
@@ -15,14 +60,14 @@
             }
           }
         ],
-        "line": 23,
-        "name": "User login to Amazon",
+        "line": 11,
+        "name": "Add and Remove a Mac book from Cart",
         "description": "",
-        "id": "user-on-retail-websitee;user-login-to-amazon",
+        "id": "laptop\u0026notebook;add-and-remove-a-mac-book-from-cart",
         "after": [
           {
             "result": {
-              "duration": 454094100,
+              "duration": 389963600,
               "status": "passed"
             },
             "match": {
@@ -35,97 +80,137 @@
         "steps": [
           {
             "result": {
-              "duration": 484702300,
+              "duration": 1623273700,
               "status": "passed"
             },
-            "line": 24,
-            "name": "user on amazon website",
+            "line": 14,
+            "name": "User click on MacBook  item",
             "match": {
-              "location": "StepDefinition.amazonLogin.user_on_amazon_website()"
+              "location": "StepDefinition.AddRemoveMacbook.user_click_on_mac_book_item()"
             },
-            "keyword": "Given "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1021280200,
+              "duration": 84783300,
               "status": "passed"
             },
-            "line": 25,
-            "name": "user click on sign button",
+            "line": 15,
+            "name": "User click add to Cart button",
             "match": {
-              "location": "StepDefinition.amazonLogin.user_click_on_sign_button()"
+              "location": "StepDefinition.hpStepDefinition.user_click_add_to_cart_button()"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1294608000,
+              "duration": 226348200,
               "status": "passed"
             },
-            "line": 26,
-            "name": "user see userName \u003c\u0027bariallaijoyandah@gmail.com\u0027\u003e and password \u003c\u0027frozan222\u0027\u003e",
+            "line": 16,
+            "name": "User should see a message ‘Success: You have added MacBook to your shopping cart!’",
             "match": {
-              "arguments": [
-                {
-                  "val": "\u0027bariallaijoyandah@gmail.com\u0027",
-                  "offset": 19
-                },
-                {
-                  "val": "\u0027frozan222\u0027",
-                  "offset": 64
-                }
-              ],
-              "location": "StepDefinition.amazonLogin.user_see_user_name_username_and_password_password(java.lang.String,java.lang.String)"
+              "location": "StepDefinition.AddRemoveMacbook.user_should_see_a_message_success_you_have_added_mac_book_to_your_shopping_cart()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 117878000,
+              "duration": 29377500,
               "status": "passed"
             },
-            "line": 27,
-            "name": "user click on submit button",
+            "line": 17,
+            "name": "User should see \"1 item(s) - $602.00\" showed to the cart",
             "match": {
-              "location": "StepDefinition.amazonLogin.user_click_on_submit_button()"
+              "arguments": [
+                {
+                  "val": "\"1 item(s) - $602.00\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.AddRemoveMacbook.user_should_see_showed_to_the_cart(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 4029527200,
+              "duration": 59827500,
               "status": "passed"
             },
-            "line": 28,
-            "name": "user see a amazon success message",
+            "line": 18,
+            "name": "User click on cart option",
             "match": {
-              "location": "StepDefinition.amazonLogin.user_see_a_amazon_success_message()"
+              "location": "StepDefinition.AddRemoveMacbook.user_click_on_cart_option()"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63828300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click on red X button to remove the item from cart",
+            "match": {
+              "location": "StepDefinition.AddRemoveMacbook.user_click_on_red_x_button_to_remove_the_item_from_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2547959400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "item should be removed and cart should show \"0 item(s) - $0.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0 item(s) - $0.00\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinition.AddRemoveMacbook.item_should_be_removed_and_cart_should_show(java.lang.String)"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@tag"
+            "name": "@TestAll"
           },
           {
-            "name": "@Amazon"
+            "name": "@UnitIntegration"
+          },
+          {
+            "name": "@loginMacbook"
+          },
+          {
+            "name": "@UnitTesting"
           }
         ]
       }
     ],
-    "name": "user on Retail Websitee",
+    "name": "Laptop\u0026NoteBook",
     "description": "",
-    "id": "user-on-retail-websitee",
+    "id": "laptop\u0026notebook",
     "keyword": "Feature",
-    "uri": "classpath:features/Demo.feature",
+    "uri": "classpath:features/laptop.feature",
     "tags": [
       {
-        "name": "@tag",
+        "name": "@TestAll",
         "type": "Tag",
         "location": {
           "line": 1,
           "column": 1
+        }
+      },
+      {
+        "name": "@UnitIntegration",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 10
         }
       }
     ]

@@ -58,7 +58,13 @@ public class AmazonPageElement extends Base{
 		Utilities.highlightelementBorderAndBackground(this.message);
 		return message.equalsIgnoreCase(this.message.getText());
 		
-	}
+	}// unit testing // integration:: when there is new functionlity added we do integration testing. 
+	// regression testing:: 
+	// UI and Backend testing. user interface testing. backend call data if data 
+	// funcitonlity testing: DOR diffintion 
+	// sprint planing/review readniss. when they carry from backlog to start sprint they check if the sprint is ready for test it happens in the begining of each sprint. 
+	// 
+	
 	
 
 }

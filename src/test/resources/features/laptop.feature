@@ -1,5 +1,5 @@
 @TestAll @UnitIntegration
-Feature:Laptop&NoteBook 
+Feature: Laptop&NoteBook 
 
 
 Background:
